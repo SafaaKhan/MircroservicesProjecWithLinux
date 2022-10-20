@@ -4,7 +4,7 @@ services:
   prudcutmicroserve:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
-      - ASPNETCORE_URLS=https://+:443;https://+:80
+      - ASPNETCORE_URLS=https://+:443;http://+:80
     ports:
       - "80"
       - "443"
