@@ -3,11 +3,11 @@ version: '3.4'
 services:
   prudcutmicroserve:
     environment:
-      - ASPNETCORE_ENVIRONMENT=Production
-      - ASPNETCORE_URLS=https://+:443;http://+:80
+      - ASPNETCORE_ENVIRONMENT=production
+      - ASPNETCORE_URLS=http://0.0.0.0:80
     ports:
       - "80"
-      - "443"
+      #- "443"
     #volumes:
     #  - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
     #  - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
