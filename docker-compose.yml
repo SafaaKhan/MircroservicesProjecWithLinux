@@ -9,4 +9,4 @@ services:
     environment:
       - CONNECTIONSTRINGS__DEFAULTCONNECTION=Data Source=192.168.100.18,1433;Initial Catalog=ProductServiceDB;User Id=sa;Password=SA@12saf;Trusted_Connection=False; MultipleActiveResultSets=true;
     ports:
-    - "80"
+    - "3000:80"
